@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="icon" href="./images/icon.png">
+
+    <!-- icon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+
+  <body class="font-header bg-zinc-300">
+    <div id="header"></div>
+
+    <!-- Body -->
+    <section>
+      <div class="my-20">
+        <p class="text-center font-semibold mb-10">
+          Please tell us which Program you are interested and someone will be in
+          contact shortly!
+        </p>
+        <div class="xl:ms-80 lg:ms-64 md:ms-40 ms-20">
+          <form action="#" id="contactForm">
+            <h1 class="text-3xl font-bold mb-5">INFO</h1>
+            <!-- name -->
+            <div class="mb-5">
+              <label for="name" class="uppercase">Name</label>
+              <input
+                id="name"
+                type="text"
+                class="border-b border-black mt-3 focus-visible:outline-none ps-3 block w-[75%] font-body"
+                required
+              />
+            </div>
+            <!-- email -->
+            <div class="mb-5">
+              <label for="email" class="uppercase">Email</label>
+              <input
+                id="email"
+                type="email"
+                class="border-b border-black mt-3 focus-visible:outline-none ps-3 block w-[75%] font-body"
+                required
+              />
+            </div>
+            <div class="mb-5">
+              <label for="number" class="uppercase">Phone Number</label>
+              <input
+                id="number"
+                type="number"
+                class="border-b border-black mt-3 focus-visible:outline-none ps-3 block w-[75%] font-body"
+                required
+              />
+            </div>
+            <div class="mb-5">
+              <label for="programChoose"
+                >WHICH PROGRAM ARE YOU INTERESTED IN ?</label
+              >
+              <input
+                id="programChoose"
+                type="text"
+                class="border-b border-black mt-3 focus-visible:outline-none ps-3 block w-[75%] font-body"
+                required
+              />
+            </div>
+            <div class="mb-8">
+              <label for="trainingHistory"
+                >HAVE YOU JOIN THIS TYPE OF TRAINING BEFORE ?</label
+              >
+              <input
+                id="trainingHistory"
+                type="text"
+                class="border-b border-black mt-3 focus-visible:outline-none ps-3 block w-[75%] font-body"
+              />
+            </div>
+            <button
+              class="bg-[#4b89ac] text-white rounded-lg px-5 py-2 hover:bg-[#7ebbdf] hover:text-black hover:shadow-lg"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <div id="thankyou"></div>
+
+    <div id="footer"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
